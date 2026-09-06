@@ -37,18 +37,22 @@ The app starts on http://localhost:8080.
 
 
 ## API Endpoints
-   | Method | Endpoint | Description |
+
+      | Method | Endpoint | Description |
    |--------|----------|-------------|
    | POST | `/api/shorten` | Submit a URL, get back a short code |
    | GET | `/{shortCode}` | Redirects to the original URL |
-"https://example.com"
 
+   
 ## Example response
 json
 {
   "id": 1,
+  
   "shortCode": "aB3xY9",
+  
   "originalURL": "https://example.com",
+  
   "createdAt": "2026-09-06T01:40:03.4197086"
 }
 
