@@ -26,8 +26,8 @@ src/main/java/com/example/demo/
 └── controller/   # URLShortenerController.java — REST endpoints
 
 ## Running Locally
-Clone the repo.
-From the project root (where pom.xml lives), run:
+1. Clone the repo.
+2. From the project root (where pom.xml lives), run:
    ./mvnw spring-boot:run
 
 On Windows:
@@ -58,11 +58,14 @@ example.com is a real URL reserved specifically for use in demos and tutorials l
 
 ## Database
 
-H2, in-memory — resets every restart. Peek at it live while the app is running:
+H2, in-memory. Watch it live while the app is running:
 
 URL: http://localhost:8080/h2-console
+
 JDBC URL: jdbc:h2:mem:urlshortenerdb
+
 Username: sa
+
 Password: (blank)
 
 
